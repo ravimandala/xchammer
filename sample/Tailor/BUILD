@@ -18,5 +18,8 @@ swift_library(
     name = "ios-app-main",
     srcs = [
         "AppDelegate.swift",
+    ],
+    copts = [
+      "-swift-version 4.2"
     ]
 )
